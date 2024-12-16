@@ -21,13 +21,23 @@
       rel="stylesheet"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" href="/assets/icon.png" />
     <title>Neuro AI</title>
     <script type="module" crossorigin src="/assets/index-691e61aa.js"></script>
     <link rel="stylesheet" href="/assets/index-08f19775.css">
     <link rel="stylesheet" href="./index.css">
+    <style>
+      .background-div {
+        width: 100%; /* Adjust width */
+        background-image: url('/assets/back.jpg'); /* Set the image path */
+        background-size: cover; /* Scale the image to cover the entire div */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent tiling */
+      }
+    </style>
   </head>
-  <body>
-    <div class="canvas-holder">
+  <body  class="background-div">
+    <div class="canvas-holder background-div">
         <canvas></canvas>
     </div>
     <button class="scroll-top" id="scrollToTopBtn" description="Scroll to Top">
@@ -74,7 +84,7 @@
         </li>
       </ul>
     </div>
-    <main class="wrapper">
+    <main class="wrapper ">
       <section class="section section__1" id="section-1">
         <div class="content">
           <h1 data-aos="fade-up">Neuro AI</h1>
